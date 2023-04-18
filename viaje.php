@@ -134,7 +134,7 @@ class Viaje{
     }
 
     public function __toString(){
-        return "". $this->getCodigo(). "". $this->getDestino(). "". $this->getMaxPasajeros(). "". $this->getCollPasajeros(). "". $this->getObjResponsableV();//agregar datos resp
+        return "". $this->getCodigo(). "". $this->getDestino(). "". $this->getMaxPasajeros(). "". $this->getCollPasajeros(). "". $this->getObjResponsableV();
         
     }
 
